@@ -1,4 +1,5 @@
 import React from 'react'
+import Carousel from './components/Carousel'
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           </li>
         </ul>
       </nav>
-      <div className='home text-center'>Harry Murphy A Junior Software Engineer</div>
+      <div className='home container mt-5 text-end'>Harry Murphy A Junior Software Engineer</div>
       <div className='about'>
         Here is a bit about me...
         <div className="container mt-5">
@@ -29,9 +30,16 @@ function App() {
         </div>
       </div>
       <div className='skills'>Skill Set</div>
-      <div className='projects'>Heres what i have been working on </div>
+      
+      
+      <div className="container mt-5">
+        <Carousel/>
+      </div>
+
+
+      
       <div className='interests'>What i am up to when im not coding</div>
-      <div className='contact'>How to make contact</div>
+      <div className='contact'></div>
     </>
   )
 }
