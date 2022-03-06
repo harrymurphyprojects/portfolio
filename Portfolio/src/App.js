@@ -29,11 +29,6 @@ function App() {
       <div className="container mt-5">
         <Projects/>
       </div>
-
-
-      
-      <div className='interests'>What i am up to when im not coding</div>
-      <div className='contact'></div>
     </>
   )
 }
