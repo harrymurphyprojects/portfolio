@@ -4,30 +4,23 @@ import About from  './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Navbar from './components/Navbar'
+import Profile from './components/Profile'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <>
-      <Navbar/>
-      <div className='home container mt-5 text-end'>Harry Murphy A Junior Software Engineer</div>
-      <div className='about'>
-        Here is a bit about me...
-        <div className="container mt-5">
-          <div className="row">
-            <div className="col"></div>
-          </div>
-        </div>
+      <Navbar />
+      <Profile />
+      <div className="container mt-5">
+        <About />
+      </div><div className="container mt-5">
+        <Skills />
+      </div><div className="container mt-5">
+        <Projects />
       </div>
       <div className="container mt-5">
-        <About/>
-      </div>
-      
-      <div className="container mt-5">
-        <Skills/>
-      </div>
-
-      <div className="container mt-5">
-        <Projects/>
+        <Footer />
       </div>
     </>
   )

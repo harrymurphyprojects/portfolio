@@ -5,7 +5,7 @@ function Projects() {
 
   return (
     <>
-      <h1 className="display-6 pt-2" >My Projects</h1>
+      <h1 className="display-6 pt-5" id='projects'>My Projects</h1>
       <Carousel>
         <Carousel.Item interval={3000}>
           <img
